@@ -1,34 +1,40 @@
-# 📦 Node.js
+# ▶ Node.js
 node_modules/
 dist/
-.env
 .vite/
 .cache/
+.env*
 
-# 💅 CSS build output
-*.css
-*.css.map
-
-# 🔨 Logs
+# ▶ Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
+*.log
 
-# 🧠 Editor & OS
+# ▶ VS Code settings
 .vscode/
-.idea/
-*.swp
+
+# ▶ macOS / Windows / Linux system files
 .DS_Store
 Thumbs.db
+*.swp
 
-# 💾 Lock files (если используешь только один менеджер пакетов — оставь нужный)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-
-# 🚫 Сборочные артефакты (если вдруг будут)
+# ▶ Build artifacts
 *.tmp
 *.bak
 
-# 📁 Git игнорирует всё лишнее, кроме исходников:
-# (оставляются только src/, js/, sass/, html и конфиги)
+# ▶ CSS artifacts (если SCSS компилируется отдельно)
+*.css
+*.css.map
+
+# ▶ Optional lockfiles (оставь только нужный)
+# yarn.lock
+# pnpm-lock.yaml
+
+# ▶ Git folder artifacts
+*.orig
+
+# ▶ Custom ignores (при необходимости)
+# coverage/
+# test-output/
+# sass-cache/
