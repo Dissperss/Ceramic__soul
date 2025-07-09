@@ -1,0 +1,34 @@
+# 📦 Node.js
+node_modules/
+dist/
+.env
+.vite/
+.cache/
+
+# 💅 CSS build output
+*.css
+*.css.map
+
+# 🔨 Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🧠 Editor & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 💾 Lock files (если используешь только один менеджер пакетов — оставь нужный)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# 🚫 Сборочные артефакты (если вдруг будут)
+*.tmp
+*.bak
+
+# 📁 Git игнорирует всё лишнее, кроме исходников:
+# (оставляются только src/, js/, sass/, html и конфиги)
