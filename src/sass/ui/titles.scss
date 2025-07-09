@@ -1,5 +1,5 @@
 // @use "/src/sass/base/mixins.scss" as*;
-@use "../base/mixins.scss" as*;
+@import "../base/mixins.scss";
 
 .title-h1-italic {
     @include title;

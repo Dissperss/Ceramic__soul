@@ -1,18 +1,21 @@
-@use "./libs/modern-normalize.min.css";
-@use "./libs/fontello.css";
+@import "./base/mixins.scss";
+@import "./base/variables.scss";
+@import "./base/basic.scss";
 
-@use "./base/mixins.scss";
-@use "./base/variables.scss";
-@use "./base/basic.scss";
+@import "./blocks/header.scss";
 
-@use "./blocks/header.scss";
+@import "./ui/titles.scss";
+@import "./ui/buttons.scss";
 
-@use "./ui/titles.scss";
-@use "./ui/buttons.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/activities.scss";
+@import "./blocks/touch.scss";
+@import "./blocks/works.scss";
 
-@use "./blocks/promo.scss";
-@use "./blocks/activities.scss";
-@use "./blocks/touch.scss";
+// @use "./libs/modern-normalize.min.css";
+// @use "./libs/fontello.css";
+
+
 
 
 // @use "/src/sass/libs/modern-normalize.min.css";
