@@ -1,8 +1,8 @@
 // @use "/src/sass/base/mixins.scss" as *;
 // @use "/src/sass/base/variables.scss" as *;
 
-@import "../base/mixins.scss";
-@import "../base/variables.scss";
+@use '../base/mixins.scss';
+@use '../base/variables.scss';
 
 .btn-default {
     @include button;

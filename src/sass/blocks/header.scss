@@ -1,4 +1,4 @@
-@import "../base/variables.scss";
+@use '../base/variables.scss';
 
 .header {
     &__top {
@@ -68,12 +68,12 @@
         }
         &-link {
             color: $dark;
-			font-size: 20px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
-			text-transform: uppercase;
-			text-decoration: none;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            text-decoration: none;
         }
     }
 }

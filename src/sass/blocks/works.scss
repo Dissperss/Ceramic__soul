@@ -1,4 +1,4 @@
-@import "../base/variables.scss";
+@use '../base/variables.scss';
 
 .works {
     padding-top: 60px;
@@ -7,8 +7,8 @@
         margin-top: 40px;
     }
     .swiper-slide img {
-		width: 100%;
-	}
+        width: 100%;
+    }
     .works__slider-nav {
         display: none;
     }

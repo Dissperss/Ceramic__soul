@@ -1,4 +1,4 @@
-@import "../base/variables.scss";
+@use '../base/variables.scss';
 
 .touch {
     padding-top: 60px;
@@ -101,7 +101,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .touch  {
+    .touch {
         &__img {
             display: block;
             width: 100%;
