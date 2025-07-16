@@ -12,7 +12,7 @@
         flex-wrap: wrap;
         margin-top: 60px;
         border: 1px solid $dark;
-        padding: 13px 35px;
+        padding: 13px 25px;
     }
     &__tab {
         position: relative;
@@ -32,6 +32,13 @@
             height: 1px;
             background-color: #000;
             bottom: -1px;
+        }
+    }
+    &__content {
+        margin-top: 60px;
+        &-item {
+            flex-direction: column;
+            gap: 20px;
         }
     }
 }
