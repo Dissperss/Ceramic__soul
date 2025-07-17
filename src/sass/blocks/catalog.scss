@@ -1,4 +1,5 @@
 @use "../base/variables.scss";
+@use "../base/mixins.scss";
 
 .catalog {
     padding-top: 50px;
@@ -78,24 +79,7 @@
         &__content {
             padding: 10px;
             position: relative;
-            &::after {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 200px;
-                height: 1px;
-                background-color: $dark;
-            }
-            &::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 1px;
-                height: 200px;
-                background-color: $dark;
-            }
+            @include angle-decoration;
             &-item {
                 align-items: flex-start;
                 flex-direction: row;

@@ -1,8 +1,8 @@
 // @use "/src/sass/base/mixins.scss" as *;
 // @use "/src/sass/base/variables.scss" as *;
 
-@use '../base/mixins.scss';
-@use '../base/variables.scss';
+@use "../base/mixins.scss";
+@use "../base/variables.scss";
 
 .btn-default {
     @include button;
@@ -41,6 +41,17 @@
     }
 }
 
+.btn-read {
+    @include button;
+    width: 145px;
+    height: 32px;
+    font-size: 14px;
+    &:focus {
+        border: 1px solid $ceramic;
+        outline: 1px solid $ceramic;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .btn-default {
         &:hover {
@@ -55,6 +66,16 @@
         }
     }
     .btn-send {
+        &:active {
+            border: 1px solid $ceramic;
+            outline: 1px solid $ceramic;
+        }
+        &:hover {
+            color: $ceramic;
+            border: 1px solid $ceramic;
+        }
+    }
+    .btn-read {
         &:active {
             border: 1px solid $ceramic;
             outline: 1px solid $ceramic;

@@ -1,18 +1,20 @@
-@import './base/mixins';
-@import './base/variables';
-@import './base/basic';
+@import "./base/mixins";
+@import "./base/variables";
+@import "./base/basic";
 
-@import './blocks/header';
-@import './blocks/footer';
+@import "./blocks/header";
+@import "./blocks/footer";
 
-@import './ui/titles';
-@import './ui/buttons';
+@import "./ui/titles";
+@import "./ui/buttons";
 
-@import './blocks/promo';
-@import './blocks/activities';
-@import './blocks/touch';
-@import './blocks/works';
-@import './blocks/catalog';
+@import "./blocks/promo";
+@import "./blocks/activities";
+@import "./blocks/touch";
+@import "./blocks/works";
+@import "./blocks/catalog";
+@import "./blocks/blog";
+@import "./blocks/about";
 
 // @use "./libs/modern-normalize.min.css";
 // @use "./libs/fontello.css";
