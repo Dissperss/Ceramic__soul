@@ -14,7 +14,7 @@
     &__text {
         font-weight: 400;
         font-size: 16px;
-        color: $light; 
+        color: $light;
         line-height: normal;
         font-style: normal;
         margin-top: 40px;
@@ -49,10 +49,10 @@
         align-items: center;
         margin-top: 20px;
         color: $light;
-		font-size: 14px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: 28px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
         a {
             color: #a22dc6;
             text-decoration: none;
@@ -89,11 +89,11 @@
     &__link {
         a {
             color: $light;
-			font-size: 16px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
-			text-decoration: none;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
         }
     }
     &__social {
@@ -119,10 +119,10 @@
         margin-top: 40px;
         text-align: center;
         color: $light;
-		font-size: 14px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
 
@@ -144,7 +144,8 @@
         &__newsletter {
             width: auto;
         }
-        &__links, &__social {
+        &__links,
+        &__social {
             margin-top: 0;
         }
         &__copyright {
