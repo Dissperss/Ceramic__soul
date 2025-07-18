@@ -53,12 +53,15 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: clamp(450px, 37.5vw ,640px);
+            width: clamp(450px, 37.5vw, 640px);
             height: 633px;
             object-fit: cover;
         }
         &__title {
             padding-left: 571px;
+        }
+        &__cta {
+            animation: slideIn 3s;
         }
     }
 }

@@ -101,8 +101,8 @@
         &__decor {
             display: block;
             position: absolute;
-            right: 0;
             bottom: 0;
+            right: 0;
         }
     }
 }
@@ -140,6 +140,9 @@
         &__form {
             padding-left: 20px;
         }
+        &__decor {
+            animation: slideTo 3s;
+        }
     }
 }
 
@@ -165,7 +168,7 @@
             width: 300px;
         }
         &__decor {
-            right: 75px;
+            right: 315px;
         }
     }
 }
