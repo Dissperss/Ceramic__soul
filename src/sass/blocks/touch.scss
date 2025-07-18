@@ -1,7 +1,14 @@
-@use '../base/variables.scss';
+@use "../base/variables.scss";
 
 .touch {
     padding-top: 60px;
+    .just-validate-error-field {
+        border: none;
+        outline: 1px solid $ui-error;
+    }
+    .just-validate-error-label {
+        margin-top: 3px;
+    }
     &__wrapper {
         margin-top: 58px;
     }
