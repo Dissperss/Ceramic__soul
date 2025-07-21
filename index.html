@@ -5,6 +5,98 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Website for Ceramic soul brand" />
         <meta name="author" content="Awesome student" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:title" content="Ceramic soul" />
+        <meta property="og:description" content="Bla bla" />
+        <meta
+            property="og:image"
+            content="https://metatags.io/images/meta-tags.png"
+        />
+
+        <!-- X (Twitter) -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:title" content="Ceramic soul" />
+        <meta property="twitter:description" content="Bla bla" />
+        <meta
+            property="twitter:image"
+            content="https://metatags.io/images/meta-tags.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/favicons/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="/favicons/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/favicons/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/favicons/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/favicons/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="/favicons/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+
         <title>Ceramic soul</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -201,7 +293,7 @@
                                     />
                                 </div>
                             </fieldset>
-                            <label class="touch__label" for=""
+                            <label class="touch__label" for="question"
                                 >Your question</label
                             >
                             <textarea
@@ -209,7 +301,7 @@
                                 name="question"
                                 id="question"
                                 placeholder="Question"
-                                required
+                                required=""
                             ></textarea>
                             <div class="error-message"></div>
 
@@ -311,7 +403,6 @@
                                     type="checkbox"
                                     id="footer__checkbox"
                                     required=""
-                                    wfd-id="id2"
                                 />
                                 I agree with the <a href="#">terms</a></label
                             >
@@ -327,10 +418,10 @@
                             <nav class="footer__nav">
                                 <ul>
                                     <li class="footer__link">
-                                        <a href="#">About Us</a>
+                                        <a href="./about.html">About Us</a>
                                     </li>
                                     <li class="footer__link">
-                                        <a href="#">Blog</a>
+                                        <a href="./blog.html">Blog</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -340,7 +431,7 @@
                             <nav class="footer__nav">
                                 <ul>
                                     <li class="footer__link">
-                                        <a href="#">Catalog</a>
+                                        <a href="./catalog.html">Catalog</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -358,7 +449,7 @@
                     </div>
                     <div class="footer__social">
                         <h2 class="footer__header">follow us</h2>
-                        <div class="footer__social-block">
+                        <ul class="footer__social-block">
                             <li>
                                 <a href="https://www.facebook.com/">
                                     <span class="icon-facebook"></span>
@@ -374,7 +465,7 @@
                                     <span class="icon-pinterest-circled"></span>
                                 </a>
                             </li>
-                        </div>
+                        </ul>
                     </div>
                 </div>
                 <div class="footer__copyright">
